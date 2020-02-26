@@ -105,7 +105,7 @@ def delete_siswa():
     # metode exception
     try:
         # simpan query mysql
-        sql = "DELETE from tbl_siswa WHERE nis = %s" % nis
+        sql = "DELETE FROM tbl_siswa WHERE nis = %s" % nis
         # mengeksekusi query
         cursor.execute(sql)
         # commit perubahan di database
