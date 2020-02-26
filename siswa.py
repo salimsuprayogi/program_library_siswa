@@ -1,7 +1,7 @@
 # Mentor = Muhammad Nasrullah
 # Author = Salim Suprayogi
 
-# untuk import fungsi connector database mywql
+# untuk import fungsi connector database mysql
 from db_connector import connect_db as dbpy
 # import json untuk menampilkan di terminal menjadi rapi / nyaman di baca
 import json
