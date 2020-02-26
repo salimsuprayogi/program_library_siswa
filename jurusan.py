@@ -58,7 +58,7 @@ def delete_jurusan():
     no_id = input("Masukan ID Jurusan : ")
 
     try:
-        sql = "DELETE from tbl_jurusan WHERE id = '%s'" % no_id
+        sql = "DELETE FROM tbl_jurusan WHERE id = '%s'" % no_id
         cursor.execute(sql)
         db.commit()
     except:
